@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+    tags-ignore: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    name: Test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - uses: Swatinem/rust-cache@v2
+      - name: Derle
+        run: cargo build --all-targets
+      - name: Testler
+        run: cargo test
+      - name: Clippy (uyarılar bilgi amaçlı)
+        if: matrix.os == 'ubuntu-latest'
+        run: cargo clippy --all-targets
+      - name: Biçim kontrolü (bilgi amaçlı)
+        if: matrix.os == 'ubuntu-latest'
+        continue-on-error: true
+        run: cargo fmt --check
+
+  binary:
+    name: Linux ikilisi (indirilebilir)
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-unknown-linux-musl
+      - run: sudo apt-get update && sudo apt-get install -y musl-tools
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo build --release --target x86_64-unknown-linux-musl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: onparmak-x86_64-linux
+          path: target/x86_64-unknown-linux-musl/release/onparmak
+          retention-days: 14

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=onparmak
+GenericName=Klavye Eğitmeni
+Comment=Türkçe on parmak klavye eğitmeni (F ve Q)
+Exec=onparmak
+Terminal=true
+Icon=input-keyboard
+Categories=Education;Utility;
+Keywords=typing;klavye;on parmak;f klavye;

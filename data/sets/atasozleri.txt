@@ -1,0 +1,161 @@
+# Atasözleri
+# Büyük harf ve noktalama ile gerçek cümleler. Her satır bir cümle.
+Damlaya damlaya göl olur.
+Sakla samanı, gelir zamanı.
+Ağaç yaşken eğilir.
+Akıl akıldan üstündür.
+Bin bilsen de bir bilene danış.
+Bugünün işini yarına bırakma.
+Çok yaşayan bilmez, çok gezen bilir.
+Dost acı söyler.
+Emek olmadan yemek olmaz.
+Gülü seven dikenine katlanır.
+İşleyen demir ışıldar.
+Keskin sirke küpüne zarar.
+Komşu komşunun külüne muhtaçtır.
+Ne ekersen onu biçersin.
+Sabır acıdır, meyvesi tatlıdır.
+Su akar, yolunu bulur.
+Tatlı dil yılanı deliğinden çıkarır.
+Üzüm üzüme baka baka kararır.
+Yalancının mumu yatsıya kadar yanar.
+Zaman her şeyin ilacıdır.
+Acele işe şeytan karışır.
+Ak akçe kara gün içindir.
+Aç ayı oynamaz.
+Ateş düştüğü yeri yakar.
+Az olsun, öz olsun.
+Balık baştan kokar.
+Bir elin nesi var, iki elin sesi var.
+Bir fincan kahvenin kırk yıl hatırı vardır.
+Borç yiğidin kamçısıdır.
+Boş başak dik durur.
+Çalma kapıyı, çalarlar kapını.
+Çivi çiviyi söker.
+Dağ dağa kavuşmaz, insan insana kavuşur.
+Davulun sesi uzaktan hoş gelir.
+Dervişin fikri ne ise zikri de odur.
+Dost kara günde belli olur.
+Eski dost düşman olmaz.
+Eşek hoşaftan ne anlar.
+Gönül ne kahve ister ne kahvehane, gönül sohbet ister, kahve bahane.
+Güneş balçıkla sıvanmaz.
+Hatasız kul olmaz.
+Her işte bir hayır vardır.
+Her yiğidin bir yoğurt yiyişi vardır.
+İki cambaz bir ipte oynamaz.
+İnsan yedisinde ne ise yetmişinde de odur.
+İşten artmaz, dişten artar.
+Kaz gelecek yerden tavuk esirgenmez.
+Körle yatan şaşı kalkar.
+Kurt dumanlı havayı sever.
+Lafla peynir gemisi yürümez.
+Meyve veren ağacı taşlarlar.
+Minareyi çalan kılıfını hazırlar.
+Nerede birlik, orada dirlik.
+Ölçmeden biçme.
+Önce can, sonra canan.
+Öfkeyle kalkan zararla oturur.
+Parayı veren düdüğü çalar.
+Rüzgâr eken fırtına biçer.
+Sağlık varlıktan iyidir.
+Sona kalan dona kalır.
+Söz gümüşse sükût altındır.
+Tavşan dağa küsmüş, dağın haberi olmamış.
+Taşıma suyla değirmen dönmez.
+Vakit nakittir.
+Yavaş yavaş giden yol alır.
+Yüz verirsen astarını da ister.
+Zararın neresinden dönülse kârdır.
+Ayağını yorganına göre uzat.
+Bakarsan bağ olur, bakmazsan dağ olur.
+Bal tutan parmağını yalar.
+Bilmemek ayıp değil, öğrenmemek ayıptır.
+Bir musibet bin nasihatten iyidir.
+Cahile söz anlatmak, deveye hendek atlatmaktan güçtür.
+Çok bilen çok yanılır.
+Denize düşen yılana sarılır.
+Dikensiz gül olmaz.
+El elden üstündür.
+Görünen köy kılavuz istemez.
+Gün doğmadan neler doğar.
+Her kuşun eti yenmez.
+İyilik eden iyilik bulur.
+Kadir bilmeze kadir bilinmez.
+Kervan yolda düzülür.
+Kızım sana söylüyorum, gelinim sen anla.
+Kör kuşun yuvasını Allah yapar.
+Mum dibine ışık vermez.
+Öğrenmenin yaşı yoktur.
+Perşembenin gelişi çarşambadan bellidir.
+Sütten ağzı yanan yoğurdu üfleyerek yer.
+Söyleyene bakma, söyletene bak.
+Utanmaz kişinin yüzüne tükürmüşler, yağmur yağıyor demiş.
+Üzümünü ye, bağını sorma.
+Yalnız taş duvar olmaz.
+Zahmetsiz rahmet olmaz.
+Arı bal alacak çiçeği bilir.
+Aslan yatağından bellidir.
+Atın ölümü arpadan olsun.
+Bin işit, bir söyle.
+Bir taşla iki kuş vurmak.
+Bükemediğin eli öp.
+Can çıkmayınca huy çıkmaz.
+Çam sakızı çoban armağanı.
+Derdini söylemeyen derman bulamaz.
+Doğru söyleyeni dokuz köyden kovarlar.
+Dut yemiş bülbül gibi susmak.
+Erken kalkan yol alır.
+Göz görmeyince gönül katlanır.
+Hamama giren terler.
+İt ürür, kervan yürür.
+Kedi uzanamadığı ciğere mundar der.
+Kol kırılır, yen içinde.
+Laf ile karın doymaz.
+Misafir umduğunu değil, bulduğunu yer.
+Söz ola kese savaşı, söz ola kestire başı.
+Tok açın halinden bilmez.
+Umut fakirin ekmeğidir.
+Yazın gölge hoş, kışın çuha.
+Alet işler, el övünür.
+Bin ölçüp bir biçmeli.
+Çıkmadık candan umut kesilmez.
+Dereyi görmeden paçaları sıvama.
+Dinlemesini bilene bir söz yeter.
+Eğri otur, doğru söyle.
+Gezen tilki yatan aslandan iyidir.
+İki dinle, bir söyle.
+Şeker ye, şeker konuş.
+Akıllı düşman akılsız dosttan hayırlıdır.
+Kitap insanın en iyi dostudur.
+Bugün bana ise yarın sana.
+Can boğazdan gelir.
+Dilin kemiği yok.
+Ekmek elden, su gölden.
+Fırsat her zaman ele geçmez.
+Gidenin arkasından su dökülür.
+Her şeyin yenisi, dostun eskisi.
+İnsanın eti yenmez, derisi giyilmez, tatlı dilinden başka nesi var.
+Kurunun yanında yaş da yanar.
+Mart kapıdan baktırır, kazma kürek yaktırır.
+Paranın yüzü sıcaktır.
+Ramazan davulcusu gibi yılda bir görünmek.
+Sabreden derviş muradına ermiş.
+Tatlı yiyelim, tatlı konuşalım.
+Ummadığın taş baş yarar.
+Yuvayı dişi kuş yapar.
+Abdal ata binince bey oldum sanır.
+Bir çiçekle yaz gelmez.
+Çürük tahtaya basılmaz.
+Düşmez kalkmaz bir Allah.
+Elden gelen öğün olmaz, o da vaktinde bulunmaz.
+Hangi dağda kurt ölmüş.
+Isıracak it dişini göstermez.
+Karga ile gezen pisliğe konar.
+Mal canın yongasıdır.
+Ne doğrarsan aşına, o gelir kaşığına.
+Rüzgâra tüküren yüzüne tükürür.
+Su testisi su yolunda kırılır.
+Ucuz etin yahnisi kara olur.
+Vakitsiz öten horozun başını keserler.
+Yorgan gitti, kavga bitti.
