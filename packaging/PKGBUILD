@@ -9,6 +9,7 @@ url="https://github.com/mustafabayramguven/onparmak"
 license=('MIT' 'CC-BY-SA-4.0')
 provides=('onparmak')
 conflicts=('onparmak')
+options=('!debug')
 source=("onparmak-$pkgver.tar.gz::$url/releases/download/v$pkgver/onparmak-x86_64-linux.tar.gz")
 sha256sums=('SKIP')
 
