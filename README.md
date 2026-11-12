@@ -10,8 +10,7 @@
 klavye eğitmeni. Türkçe **F** ve **Q** düzenlerini bilir, tuşları parmak
 parmak öğretir, sonra gerçek Türkçe metinlerle hızlandırır.
 
-Rust + [ratatui](https://ratatui.rs) ile yazıldı; tek dosyalık, bağımlılıksız
-bir ikili olarak Linux, macOS ve Windows'ta çalışır.
+Rust + [ratatui](https://ratatui.rs) ile yazıldı; Arch Linux için derlenir.
 
 ## Neler var
 
@@ -44,24 +43,18 @@ bir ikili olarak Linux, macOS ve Windows'ta çalışır.
 - **Temalar.** Orman, Gece, Kehribar. [Omarchy](https://omarchy.org) kuruluysa
   aktif sistem temasını otomatik okur ve listeye ekler.
 
-## Kurulum
+## Kurulum (Arch)
 
-### Hazır ikili (önerilen)
-
-[Releases](../../releases) sayfasından sistemine uygun arşivi indir ya da:
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/KULLANICI_ADI/onparmak/main/install.sh | bash
-```
-
-Betik ikiliyi `~/.local/bin/onparmak` olarak kurar ve Linux'ta uygulama
-başlatıcısına ekler.
-
-### Kaynaktan
+Etiketlenen her sürüm GitHub Actions'ta bir Arch Linux container'ında derlenir
+ve Releases'e konur. Yerelde Rust gerekmez.
 
 ```sh
-cargo install --git https://github.com/KULLANICI_ADI/onparmak
+git clone https://github.com/mustafabayramguven/onparmak
+cd onparmak/packaging
+makepkg -si            # paketi kurar: pacman -R onparmak-bin ile kaldırılır
 ```
+
+Paket yöneticisi olmadan: `./install.sh` (ikiliyi `~/.local/bin`'e koyar).
 
 ## Kullanım
 
@@ -80,8 +73,7 @@ onparmak
 | `?` | yardım |
 | `ctrl+c` | çık |
 
-İlerleme `~/.local/share/onparmak/state.json` dosyasında tutulur (macOS'ta
-`~/Library/Application Support/onparmak`, Windows'ta `%APPDATA%\onparmak`).
+İlerleme `~/.local/share/onparmak/state.json` dosyasında tutulur.
 `ONPARMAK_STATE` ortam değişkeniyle başka bir dosya gösterebilirsin.
 
 ## Ölçüler
@@ -94,10 +86,14 @@ onparmak
 
 ## Geliştirme
 
-Her push'ta GitHub Actions Linux, macOS ve Windows'ta derler ve testleri
-çalıştırır; Linux ikilisini artifact olarak yükler. `v*` etiketi
-(`git tag v0.1.0 && git push --tags`) beş platform için sürüm arşivlerini
-üretip bir GitHub Release yayınlar.
+Her push'ta GitHub Actions, `archlinux:latest` container'ında testleri
+çalıştırır ve ikiliyi artifact olarak yükler. Sürüm çıkarmak için:
+
+```sh
+git tag v0.1.0 && git push --tags
+```
+
+Ardından `packaging/PKGBUILD` içindeki `pkgver`'i aynı sürüme getir.
 
 ```
 src/

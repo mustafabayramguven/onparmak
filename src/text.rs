@@ -65,7 +65,8 @@ pub fn wrap(text: &[char], width: usize) -> Vec<(usize, usize)> {
         if text[i] == ' ' {
             last_space = Some(i);
         }
-        if i - start >= width {
+        // Satır tam bir boşlukta bitince `start` i'yi bir geçer; çıkarma taşmasın.
+        if i >= start + width {
             match last_space.filter(|&s| s >= start) {
                 Some(sp) => {
                     lines.push((start, sp + 1));

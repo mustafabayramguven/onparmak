@@ -1,0 +1,21 @@
+# Hazır ikiliyi GitHub Release'ten kurar; yerelde derleme yapmaz.
+#   cd packaging && makepkg -si
+pkgname=onparmak-bin
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Zarif, terminal tabanlı Türkçe on parmak klavye eğitmeni (F ve Q)"
+arch=('x86_64')
+url="https://github.com/mustafabayramguven/onparmak"
+license=('MIT' 'CC-BY-SA-4.0')
+provides=('onparmak')
+conflicts=('onparmak')
+source=("onparmak-$pkgver.tar.gz::$url/releases/download/v$pkgver/onparmak-x86_64-linux.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+  cd onparmak-x86_64-linux
+  install -Dm755 onparmak "$pkgdir/usr/bin/onparmak"
+  install -Dm644 onparmak.desktop "$pkgdir/usr/share/applications/onparmak.desktop"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+}
